@@ -1,13 +1,12 @@
+// Jsdoc aurait plutot du etre -0.25
+/** @type {HTMLElement} */
 const body = document.querySelector('body');
+/** @type {HTMLElement} */
 const btnToggle = document.querySelector('.btn-toggle');
+/** @type {HTMLElement[]} */
 const cardsHtml = document.querySelectorAll('.card');
 const btnHideCards = document.querySelector('.btn-hide-cards');
 
-/**
- * @param {HTMLElement} btnToggle
- * @param {HTMLElement} body
- * @param {HTMLElement[]} cardsHtml
- */
 btnToggle.addEventListener('click', () => {
     
     btnToggle.classList.toggle('bg-black');
