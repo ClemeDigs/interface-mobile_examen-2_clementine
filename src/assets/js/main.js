@@ -4,8 +4,9 @@ import Card from "./Card.js";
 const cardContainer = document.querySelector('.card-container');
 
 //Celle ci est mieux !
+// Mauvais type -0.5
 /**
- * @param {HTMLDivElement[]} cards
+ * @param {Card[]} cards
  */
 const cards = [];
 for(let i = 1; i < 10; i++){
